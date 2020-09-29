@@ -1,0 +1,29 @@
+* ExamplePresenters
+
+mock / sample presenter xml; Component specific dataset projects will conform to the same format.  This project is the root project for building a website;  also used by tuning manager
+  + [[https://github.com/VEuPathDB/ApiCommonPresenters][ApiCommonPresenters]]
+  + [[https://github.com/VEuPathDB/MicrobiomePresenters][MicrobiomePresenters]]
+  + [[https://github.com/VEuPathDB/ClinEpiPresenters][ClinEpiPresenters]]
+
+** Dependencies
+
+   + yarn / npm / ant
+   + WEBAPP_PROP_FILE file (file with one property for the webapp target directory)
+      webappTargetDir=BLAH
+   + environment variables for GUS_HOME and PROJECT_HOME
+   + Internal Dependencies
+     + ApiCommonWebservice, ExampleDatasets
+
+** Installation instructions.
+
+   + bldw ExamplePresenters (for building a website)
+   + bld ExamplePresenters/Model (for running tuning manager)
+
+** Operating instructions.
+
+   + building this project will create an VEuPath website
+
+** Manifest
+
+   + Model/lib/xml/datasetPresenters :: one xml file per component project.  elements will match with a dataset record and may optionally specify a java injector class.
+
