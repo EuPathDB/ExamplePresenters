@@ -1,6 +1,6 @@
 * ExamplePresenters
 
-mock / sample presenter xml; Component specific dataset projects will conform to the same format.  This project is the root project for building a website;  also used by tuning manager
+This repo shows mock/sample presenter xml file format.  Component sites will implement their own version of this repo which will conform to the same format.  The Presenter repo is the root of the ant build for websites.  The Presenter xml files contain descriptive text about datasets which are loaded and displayed as dataset records.
   + [[https://github.com/VEuPathDB/ApiCommonPresenters][ApiCommonPresenters]]
   + [[https://github.com/VEuPathDB/MicrobiomePresenters][MicrobiomePresenters]]
   + [[https://github.com/VEuPathDB/ClinEpiPresenters][ClinEpiPresenters]]
